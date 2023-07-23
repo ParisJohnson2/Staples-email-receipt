@@ -71,36 +71,36 @@
     </mj-raw>
     <mj-section css-class="email-main-bg" padding="0 10px 20px">
       <mj-group background-color="#ffffff">
-      <mj-column>
-        <mj-text align="left" font-size="11px" font-weight="400" text-transform="uppercase" padding-bottom="20px">
-          Order Information
-        </mj-text>
-        <mj-text align="left" font-size="12px" font-weight="300" padding-top="0" padding-bottom="8px">
-          Date: Jun 19, 2023 | 01:02 PM
-        </mj-text>
-        <mj-text align="left" font-size="12px" font-weight="300" padding-top="0" padding-bottom="5px">
-          Order#: 9311944677
-        </mj-text>
-        <mj-image alt="view order" src="./components/view-order.PNG" href="#" width="120px" height="35px" align="left" padding-bottom="5px" />
-        <mj-text align="left" font-size="10px" font-weight="300" padding-top="0" padding-bottom="10px">
-          Need to make changes? Most orders can be cancelled within
-          30 minutes after placing it.
-        </mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-text align="left" font-size="11px" font-weight="400" text-transform="uppercase" padding-bottom="20px">
-          Shipping Information
-        </mj-text>
-        <mj-text align="left" font-size="12px" font-weight="300" padding-top="0" padding-bottom="8px">
-          Joe Santos
-        </mj-text>
-        <mj-text align="left" font-size="12px" font-weight="300" padding-top="0" padding-bottom="8px" text-decoration="underline">
-          1502 Foxcroft Loop
-        </mj-text>
-        <mj-text align="left" font-size="12px" font-weight="300" padding-top="0" padding-bottom="65px" text-decoration="underline">
-          Columbus, GA 31904
-        </mj-text>
-      </mj-column>
+        <mj-column>
+          <mj-text align="left" font-size="11px" font-weight="400" text-transform="uppercase" padding-bottom="20px">
+            Order Information
+          </mj-text>
+          <mj-text align="left" font-size="12px" font-weight="300" padding-top="0" padding-bottom="8px">
+            Date: Jun 19, 2023 | 01:02 PM
+          </mj-text>
+          <mj-text align="left" font-size="12px" font-weight="300" padding-top="0" padding-bottom="5px">
+            Order#: 9311944677
+          </mj-text>
+          <mj-image alt="view order" src="./components/view-order.PNG" href="#" width="120px" height="35px" align="left" padding-bottom="5px" />
+          <mj-text align="left" font-size="10px" font-weight="300" padding-top="0" padding-bottom="10px">
+            Need to make changes? Most orders can be cancelled within
+            30 minutes after placing it.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="left" font-size="11px" font-weight="400" text-transform="uppercase" padding-bottom="20px">
+            Shipping Information
+          </mj-text>
+          <mj-text align="left" font-size="12px" font-weight="300" padding-top="0" padding-bottom="8px">
+            Joe Santos
+          </mj-text>
+          <mj-text align="left" font-size="12px" font-weight="300" padding-top="0" padding-bottom="8px" text-decoration="underline">
+            1502 Foxcroft Loop
+          </mj-text>
+          <mj-text align="left" font-size="12px" font-weight="300" padding-top="0" padding-bottom="65px" text-decoration="underline">
+            Columbus, GA 31904
+          </mj-text>
+        </mj-column>
       </mj-group>
     </mj-section>
     <mj-raw>
@@ -212,16 +212,16 @@
       <!-- start of question about order section -->
     </mj-raw>
     <mj-section css-class="email-main-bg" padding="0 10px 20px">
-       <mj-group background-color="#ffffff" >
-      <mj-column width="30%">
-        <mj-image alt="questions-order" href="#" src="./components/questions.PNG" align="center" width="50px" height="35px" padding-top="20px" />
-      </mj-column>
-      <mj-column width="70%">
-        <mj-text align="left" font-size="12px" font-weight="300" padding-top="20px" padding-bottom="25px">
-          Have a question about your order?
-          Try our Help Center for quick and easy
-        </mj-text>
-      </mj-column>
+      <mj-group background-color="#ffffff">
+        <mj-column width="30%">
+          <mj-image alt="questions-order" href="#" src="./components/questions.PNG" align="center" width="50px" height="35px" padding-top="20px" />
+        </mj-column>
+        <mj-column width="70%">
+          <mj-text align="left" font-size="12px" font-weight="300" padding-top="20px" padding-bottom="25px">
+            Have a question about your order?
+            Try our Help Center for quick and easy
+          </mj-text>
+        </mj-column>
       </mj-group>
     </mj-section>
     <mj-raw>
@@ -230,16 +230,77 @@
     <mj-raw>
       <!-- start of cash back and delivery images -->
     </mj-raw>
-      <mj-section css-class="email-main-bg" padding="0 10px 20px">
-        <mj-column background-color="#ffffff">
-          <mj-image alt="2%-back rewards" href="#" src="./components/2-back-rewards.png" />
-        </mj-column>
-        <mj-column background-color="#ffffff">
-          <mj-image alt="delivery" href="#" src="./components/delivery.png" />
-        </mj-column>
-      </mj-section>
-      <mj-raw>
+    <mj-section css-class="email-main-bg" padding="0 10px 20px">
+      <mj-column background-color="#ffffff">
+        <mj-image alt="2%-back rewards" href="#" src="./components/2-back-rewards.png" />
+      </mj-column>
+      <mj-column background-color="#ffffff">
+        <mj-image alt="delivery" href="#" src="./components/delivery.png" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
       <!-- end of cash back and delivery images -->
+    </mj-raw>
+    <mj-raw>
+      <!-- start of  ideas, insights and more section -->
+    </mj-raw>
+    <mj-section css-class="email-main-bg" padding="0 0 3px">
+      <mj-group background-color="#626062">
+        <mj-column width="70%">
+          <mj-text text-transform="uppercase" align="left" font-size="18px" font-weight="400" padding-top="23px" padding-bottom="2px">
+            <a href="#" style="text-decoration: none; color: #ffffff;">Ideas, Insights and More.</a>
+          </mj-text>
+        </mj-column>
+        <mj-column width="30%">
+          <mj-image alt="search-img" href="#" src="./components/search.png" align="right" width="55px" height="55px" padding-top="5px" padding-bottom="5px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-raw>
+      <!-- end of ideas, insights and more section -->
+    </mj-raw>
+    <mj-raw>
+      <!-- start of social section -->
+    </mj-raw>
+    <mj-section css-class="email-main-bg" padding="0 0 3px">
+      <mj-group background-color="#626062">
+        <mj-column width="50%">
+          <mj-text color="#ffffff" text-transform="uppercase" align="left" font-size="15px" font-weight="400" padding-top="20px" padding-bottom="10px">
+            Stay Connected
+          </mj-text>
+        </mj-column>
+        <mj-column width="10%">
+          <mj-image alt="facebook-logo" href="#" src="./components/facebook.png" height="25px" width="25px" padding="15px 0" />
+        </mj-column>
+        <mj-column width="10%">
+          <mj-image alt="linkedin-logo" href="#" src="./components/linkedin.png" height="25px" width="25px" padding="15px 0" />
+        </mj-column>
+        <mj-column width="10%">
+          <mj-image alt="twitter-logo" href="#" src="./components/twitter.png" height="25px" width="25px" padding="15px 0" />
+        </mj-column>
+        <mj-column width="10%">
+          <mj-image alt="instagram-logo" href="#" src="./components/instagram.png" height="25px" width="25px" padding="15px 0" />
+        </mj-column>
+        <mj-column width="10%">
+          <mj-image alt="youtube-logo" href="#" src="./components/youtube.png" height="25px" width="25px" padding="15px 0" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-raw>
+      <!-- end of social section -->
+    </mj-raw>
+    <mj-raw>
+      <!-- start of footer -->
+    </mj-raw>
+    <mj-section css-class="email-main-bg">
+      <mj-column>
+        <mj-text align="center" font-size="10px" font-weight="300" padding-bottom="15px">
+          Staples, Inc., <a href="#" style="text-decoration: underline; color: black;">500 Staples Drive, Framingham, MA 01702</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- end of footer -->
     </mj-raw>
   </mj-body>
 </mjml>
